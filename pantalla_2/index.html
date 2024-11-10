@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio combate</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <audio autoplay loop hidden>
+        <source src="../audio/pokemon-battle.mp3" type="audio/mp3">
+    </audio>
+
+    <div id="vs-section">
+        <div id="pokemon-jugador" class="pokemon-container">
+            <div id="pokemon-jugador-info" class="pokemon-info">
+                <img id="img-jugador" src="" alt="Pokemon Jugador" />
+                <h2 id="nombre-jugador">Jugador</h2>
+                <div id="tipos-jugador" class="pokemon-types"></div>
+            </div>
+        </div>
+
+        <div id="vs-message" class="vs-message">VS</div>
+
+        <div id="pokemon-oponente" class="pokemon-container">
+            <div id="pokemon-oponente-info" class="pokemon-info">
+                <img id="img-oponente" src="" alt="Pokemon Oponente" />
+                <h2 id="nombre-oponente">Oponente</h2>
+                <div id="tipos-oponente" class="pokemon-types"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
